@@ -1,0 +1,446 @@
+@charset "UTF-8";
+@font-face {font-family: "BlenderW00";src: url("../../fonts/BlenderW00-Bold.woff2") format("woff2"),url("../../fonts/BlenderW00-Bold.woff") format("woff");font-weight: bold;font-style: normal;}
+body:lang(ar), button:lang(ar), input:lang(ar), select:lang(ar), optgroup:lang(ar), textarea:lang(ar), .author-description .author-link:lang(ar), .comment-metadata:lang(ar), .comment-reply-link:lang(ar), .comments-title:lang(ar), .comment-author .fn:lang(ar), .discussion-meta-info:lang(ar), .entry-meta:lang(ar), .entry-footer:lang(ar), .main-navigation:lang(ar), .no-comments:lang(ar), .not-found .page-title:lang(ar), .error-404 .page-title:lang(ar), .post-navigation .post-title:lang(ar), .page-links:lang(ar), .page-description:lang(ar), .pagination .nav-links:lang(ar), .sticky-post:lang(ar), .site-title:lang(ar), .site-info:lang(ar), #cancel-comment-reply-link:lang(ar), h1:lang(ar), h2:lang(ar), h3:lang(ar), h4:lang(ar), h5:lang(ar), h6:lang(ar), .page-title:lang(ar), blockquote cite:lang(ar), table:lang(ar) {font-family: Tahoma,Arial,sans-serif;}
+body:lang(ary), button:lang(ary), input:lang(ary), select:lang(ary), optgroup:lang(ary), textarea:lang(ary), .author-description .author-link:lang(ary), .comment-metadata:lang(ary), .comment-reply-link:lang(ary), .comments-title:lang(ary), .comment-author .fn:lang(ary), .discussion-meta-info:lang(ary), .entry-meta:lang(ary), .entry-footer:lang(ary), .main-navigation:lang(ary), .no-comments:lang(ary), .not-found .page-title:lang(ary), .error-404 .page-title:lang(ary), .post-navigation .post-title:lang(ary), .page-links:lang(ary), .page-description:lang(ary), .pagination .nav-links:lang(ary), .sticky-post:lang(ary), .site-title:lang(ary), .site-info:lang(ary), #cancel-comment-reply-link:lang(ary), h1:lang(ary), h2:lang(ary), h3:lang(ary), h4:lang(ary), h5:lang(ary), h6:lang(ary), .page-title:lang(ary), blockquote cite:lang(ary), table:lang(ary) {font-family: Tahoma,Arial,sans-serif;}
+body:lang(azb), button:lang(azb), input:lang(azb), select:lang(azb), optgroup:lang(azb), textarea:lang(azb), .author-description .author-link:lang(azb), .comment-metadata:lang(azb), .comment-reply-link:lang(azb), .comments-title:lang(azb), .comment-author .fn:lang(azb), .discussion-meta-info:lang(azb), .entry-meta:lang(azb), .entry-footer:lang(azb), .main-navigation:lang(azb), .no-comments:lang(azb), .not-found .page-title:lang(azb), .error-404 .page-title:lang(azb), .post-navigation .post-title:lang(azb), .page-links:lang(azb), .page-description:lang(azb), .pagination .nav-links:lang(azb), .sticky-post:lang(azb), .site-title:lang(azb), .site-info:lang(azb), #cancel-comment-reply-link:lang(azb), h1:lang(azb), h2:lang(azb), h3:lang(azb), h4:lang(azb), h5:lang(azb), h6:lang(azb), .page-title:lang(azb), blockquote cite:lang(azb), table:lang(azb) {font-family: Tahoma,Arial,sans-serif;}
+body:lang(ckb), button:lang(ckb), input:lang(ckb), select:lang(ckb), optgroup:lang(ckb), textarea:lang(ckb), .author-description .author-link:lang(ckb), .comment-metadata:lang(ckb), .comment-reply-link:lang(ckb), .comments-title:lang(ckb), .comment-author .fn:lang(ckb), .discussion-meta-info:lang(ckb), .entry-meta:lang(ckb), .entry-footer:lang(ckb), .main-navigation:lang(ckb), .no-comments:lang(ckb), .not-found .page-title:lang(ckb), .error-404 .page-title:lang(ckb), .post-navigation .post-title:lang(ckb), .page-links:lang(ckb), .page-description:lang(ckb), .pagination .nav-links:lang(ckb), .sticky-post:lang(ckb), .site-title:lang(ckb), .site-info:lang(ckb), #cancel-comment-reply-link:lang(ckb), h1:lang(ckb), h2:lang(ckb), h3:lang(ckb), h4:lang(ckb), h5:lang(ckb), h6:lang(ckb), .page-title:lang(ckb), blockquote cite:lang(ckb), table:lang(ckb) {font-family: Tahoma,Arial,sans-serif;}
+body:lang(fa-IR), button:lang(fa-IR), input:lang(fa-IR), select:lang(fa-IR), optgroup:lang(fa-IR), textarea:lang(fa-IR), .author-description .author-link:lang(fa-IR), .comment-metadata:lang(fa-IR), .comment-reply-link:lang(fa-IR), .comments-title:lang(fa-IR), .comment-author .fn:lang(fa-IR), .discussion-meta-info:lang(fa-IR), .entry-meta:lang(fa-IR), .entry-footer:lang(fa-IR), .main-navigation:lang(fa-IR), .no-comments:lang(fa-IR), .not-found .page-title:lang(fa-IR), .error-404 .page-title:lang(fa-IR), .post-navigation .post-title:lang(fa-IR), .page-links:lang(fa-IR), .page-description:lang(fa-IR), .pagination .nav-links:lang(fa-IR), .sticky-post:lang(fa-IR), .site-title:lang(fa-IR), .site-info:lang(fa-IR), #cancel-comment-reply-link:lang(fa-IR), h1:lang(fa-IR), h2:lang(fa-IR), h3:lang(fa-IR), h4:lang(fa-IR), h5:lang(fa-IR), h6:lang(fa-IR), .page-title:lang(fa-IR), blockquote cite:lang(fa-IR), table:lang(fa-IR) {font-family: Tahoma,Arial,sans-serif;}
+body:lang(haz), button:lang(haz), input:lang(haz), select:lang(haz), optgroup:lang(haz), textarea:lang(haz), .author-description .author-link:lang(haz), .comment-metadata:lang(haz), .comment-reply-link:lang(haz), .comments-title:lang(haz), .comment-author .fn:lang(haz), .discussion-meta-info:lang(haz), .entry-meta:lang(haz), .entry-footer:lang(haz), .main-navigation:lang(haz), .no-comments:lang(haz), .not-found .page-title:lang(haz), .error-404 .page-title:lang(haz), .post-navigation .post-title:lang(haz), .page-links:lang(haz), .page-description:lang(haz), .pagination .nav-links:lang(haz), .sticky-post:lang(haz), .site-title:lang(haz), .site-info:lang(haz), #cancel-comment-reply-link:lang(haz), h1:lang(haz), h2:lang(haz), h3:lang(haz), h4:lang(haz), h5:lang(haz), h6:lang(haz), .page-title:lang(haz), blockquote cite:lang(haz), table:lang(haz) {font-family: Tahoma,Arial,sans-serif;}
+body:lang(ps), button:lang(ps), input:lang(ps), select:lang(ps), optgroup:lang(ps), textarea:lang(ps), .author-description .author-link:lang(ps), .comment-metadata:lang(ps), .comment-reply-link:lang(ps), .comments-title:lang(ps), .comment-author .fn:lang(ps), .discussion-meta-info:lang(ps), .entry-meta:lang(ps), .entry-footer:lang(ps), .main-navigation:lang(ps), .no-comments:lang(ps), .not-found .page-title:lang(ps), .error-404 .page-title:lang(ps), .post-navigation .post-title:lang(ps), .page-links:lang(ps), .page-description:lang(ps), .pagination .nav-links:lang(ps), .sticky-post:lang(ps), .site-title:lang(ps), .site-info:lang(ps), #cancel-comment-reply-link:lang(ps), h1:lang(ps), h2:lang(ps), h3:lang(ps), h4:lang(ps), h5:lang(ps), h6:lang(ps), .page-title:lang(ps), blockquote cite:lang(ps), table:lang(ps) {font-family: Tahoma,Arial,sans-serif;}
+body:lang(be), button:lang(be), input:lang(be), select:lang(be), optgroup:lang(be), textarea:lang(be), .author-description .author-link:lang(be), .comment-metadata:lang(be), .comment-reply-link:lang(be), .comments-title:lang(be), .comment-author .fn:lang(be), .discussion-meta-info:lang(be), .entry-meta:lang(be), .entry-footer:lang(be), .main-navigation:lang(be), .no-comments:lang(be), .not-found .page-title:lang(be), .error-404 .page-title:lang(be), .post-navigation .post-title:lang(be), .page-links:lang(be), .page-description:lang(be), .pagination .nav-links:lang(be), .sticky-post:lang(be), .site-title:lang(be), .site-info:lang(be), #cancel-comment-reply-link:lang(be), h1:lang(be), h2:lang(be), h3:lang(be), h4:lang(be), h5:lang(be), h6:lang(be), .page-title:lang(be), blockquote cite:lang(be), table:lang(be) {font-family: "Helvetica Neue",Helvetica,"Segoe UI",Arial,sans-serif;}
+body:lang(bg-BG), button:lang(bg-BG), input:lang(bg-BG), select:lang(bg-BG), optgroup:lang(bg-BG), textarea:lang(bg-BG), .author-description .author-link:lang(bg-BG), .comment-metadata:lang(bg-BG), .comment-reply-link:lang(bg-BG), .comments-title:lang(bg-BG), .comment-author .fn:lang(bg-BG), .discussion-meta-info:lang(bg-BG), .entry-meta:lang(bg-BG), .entry-footer:lang(bg-BG), .main-navigation:lang(bg-BG), .no-comments:lang(bg-BG), .not-found .page-title:lang(bg-BG), .error-404 .page-title:lang(bg-BG), .post-navigation .post-title:lang(bg-BG), .page-links:lang(bg-BG), .page-description:lang(bg-BG), .pagination .nav-links:lang(bg-BG), .sticky-post:lang(bg-BG), .site-title:lang(bg-BG), .site-info:lang(bg-BG), #cancel-comment-reply-link:lang(bg-BG), h1:lang(bg-BG), h2:lang(bg-BG), h3:lang(bg-BG), h4:lang(bg-BG), h5:lang(bg-BG), h6:lang(bg-BG), .page-title:lang(bg-BG), blockquote cite:lang(bg-BG), table:lang(bg-BG) {font-family: "Helvetica Neue",Helvetica,"Segoe UI",Arial,sans-serif;}
+body:lang(kk), button:lang(kk), input:lang(kk), select:lang(kk), optgroup:lang(kk), textarea:lang(kk), .author-description .author-link:lang(kk), .comment-metadata:lang(kk), .comment-reply-link:lang(kk), .comments-title:lang(kk), .comment-author .fn:lang(kk), .discussion-meta-info:lang(kk), .entry-meta:lang(kk), .entry-footer:lang(kk), .main-navigation:lang(kk), .no-comments:lang(kk), .not-found .page-title:lang(kk), .error-404 .page-title:lang(kk), .post-navigation .post-title:lang(kk), .page-links:lang(kk), .page-description:lang(kk), .pagination .nav-links:lang(kk), .sticky-post:lang(kk), .site-title:lang(kk), .site-info:lang(kk), #cancel-comment-reply-link:lang(kk), h1:lang(kk), h2:lang(kk), h3:lang(kk), h4:lang(kk), h5:lang(kk), h6:lang(kk), .page-title:lang(kk), blockquote cite:lang(kk), table:lang(kk) {font-family: "Helvetica Neue",Helvetica,"Segoe UI",Arial,sans-serif;}
+body:lang(mk-MK), button:lang(mk-MK), input:lang(mk-MK), select:lang(mk-MK), optgroup:lang(mk-MK), textarea:lang(mk-MK), .author-description .author-link:lang(mk-MK), .comment-metadata:lang(mk-MK), .comment-reply-link:lang(mk-MK), .comments-title:lang(mk-MK), .comment-author .fn:lang(mk-MK), .discussion-meta-info:lang(mk-MK), .entry-meta:lang(mk-MK), .entry-footer:lang(mk-MK), .main-navigation:lang(mk-MK), .no-comments:lang(mk-MK), .not-found .page-title:lang(mk-MK), .error-404 .page-title:lang(mk-MK), .post-navigation .post-title:lang(mk-MK), .page-links:lang(mk-MK), .page-description:lang(mk-MK), .pagination .nav-links:lang(mk-MK), .sticky-post:lang(mk-MK), .site-title:lang(mk-MK), .site-info:lang(mk-MK), #cancel-comment-reply-link:lang(mk-MK), h1:lang(mk-MK), h2:lang(mk-MK), h3:lang(mk-MK), h4:lang(mk-MK), h5:lang(mk-MK), h6:lang(mk-MK), .page-title:lang(mk-MK), blockquote cite:lang(mk-MK), table:lang(mk-MK) {font-family: "Helvetica Neue",Helvetica,"Segoe UI",Arial,sans-serif;}
+body:lang(mn), button:lang(mn), input:lang(mn), select:lang(mn), optgroup:lang(mn), textarea:lang(mn), .author-description .author-link:lang(mn), .comment-metadata:lang(mn), .comment-reply-link:lang(mn), .comments-title:lang(mn), .comment-author .fn:lang(mn), .discussion-meta-info:lang(mn), .entry-meta:lang(mn), .entry-footer:lang(mn), .main-navigation:lang(mn), .no-comments:lang(mn), .not-found .page-title:lang(mn), .error-404 .page-title:lang(mn), .post-navigation .post-title:lang(mn), .page-links:lang(mn), .page-description:lang(mn), .pagination .nav-links:lang(mn), .sticky-post:lang(mn), .site-title:lang(mn), .site-info:lang(mn), #cancel-comment-reply-link:lang(mn), h1:lang(mn), h2:lang(mn), h3:lang(mn), h4:lang(mn), h5:lang(mn), h6:lang(mn), .page-title:lang(mn), blockquote cite:lang(mn), table:lang(mn) {font-family: "Helvetica Neue",Helvetica,"Segoe UI",Arial,sans-serif;}
+body:lang(ru-RU), button:lang(ru-RU), input:lang(ru-RU), select:lang(ru-RU), optgroup:lang(ru-RU), textarea:lang(ru-RU), .author-description .author-link:lang(ru-RU), .comment-metadata:lang(ru-RU), .comment-reply-link:lang(ru-RU), .comments-title:lang(ru-RU), .comment-author .fn:lang(ru-RU), .discussion-meta-info:lang(ru-RU), .entry-meta:lang(ru-RU), .entry-footer:lang(ru-RU), .main-navigation:lang(ru-RU), .no-comments:lang(ru-RU), .not-found .page-title:lang(ru-RU), .error-404 .page-title:lang(ru-RU), .post-navigation .post-title:lang(ru-RU), .page-links:lang(ru-RU), .page-description:lang(ru-RU), .pagination .nav-links:lang(ru-RU), .sticky-post:lang(ru-RU), .site-title:lang(ru-RU), .site-info:lang(ru-RU), #cancel-comment-reply-link:lang(ru-RU), h1:lang(ru-RU), h2:lang(ru-RU), h3:lang(ru-RU), h4:lang(ru-RU), h5:lang(ru-RU), h6:lang(ru-RU), .page-title:lang(ru-RU), blockquote cite:lang(ru-RU), table:lang(ru-RU) {font-family: "Helvetica Neue",Helvetica,"Segoe UI",Arial,sans-serif;}
+body:lang(sah), button:lang(sah), input:lang(sah), select:lang(sah), optgroup:lang(sah), textarea:lang(sah), .author-description .author-link:lang(sah), .comment-metadata:lang(sah), .comment-reply-link:lang(sah), .comments-title:lang(sah), .comment-author .fn:lang(sah), .discussion-meta-info:lang(sah), .entry-meta:lang(sah), .entry-footer:lang(sah), .main-navigation:lang(sah), .no-comments:lang(sah), .not-found .page-title:lang(sah), .error-404 .page-title:lang(sah), .post-navigation .post-title:lang(sah), .page-links:lang(sah), .page-description:lang(sah), .pagination .nav-links:lang(sah), .sticky-post:lang(sah), .site-title:lang(sah), .site-info:lang(sah), #cancel-comment-reply-link:lang(sah), h1:lang(sah), h2:lang(sah), h3:lang(sah), h4:lang(sah), h5:lang(sah), h6:lang(sah), .page-title:lang(sah), blockquote cite:lang(sah), table:lang(sah) {font-family: "Helvetica Neue",Helvetica,"Segoe UI",Arial,sans-serif;}
+body:lang(sr-RS), button:lang(sr-RS), input:lang(sr-RS), select:lang(sr-RS), optgroup:lang(sr-RS), textarea:lang(sr-RS), .author-description .author-link:lang(sr-RS), .comment-metadata:lang(sr-RS), .comment-reply-link:lang(sr-RS), .comments-title:lang(sr-RS), .comment-author .fn:lang(sr-RS), .discussion-meta-info:lang(sr-RS), .entry-meta:lang(sr-RS), .entry-footer:lang(sr-RS), .main-navigation:lang(sr-RS), .no-comments:lang(sr-RS), .not-found .page-title:lang(sr-RS), .error-404 .page-title:lang(sr-RS), .post-navigation .post-title:lang(sr-RS), .page-links:lang(sr-RS), .page-description:lang(sr-RS), .pagination .nav-links:lang(sr-RS), .sticky-post:lang(sr-RS), .site-title:lang(sr-RS), .site-info:lang(sr-RS), #cancel-comment-reply-link:lang(sr-RS), h1:lang(sr-RS), h2:lang(sr-RS), h3:lang(sr-RS), h4:lang(sr-RS), h5:lang(sr-RS), h6:lang(sr-RS), .page-title:lang(sr-RS), blockquote cite:lang(sr-RS), table:lang(sr-RS) {font-family: "Helvetica Neue",Helvetica,"Segoe UI",Arial,sans-serif;}
+body:lang(tt-RU), button:lang(tt-RU), input:lang(tt-RU), select:lang(tt-RU), optgroup:lang(tt-RU), textarea:lang(tt-RU), .author-description .author-link:lang(tt-RU), .comment-metadata:lang(tt-RU), .comment-reply-link:lang(tt-RU), .comments-title:lang(tt-RU), .comment-author .fn:lang(tt-RU), .discussion-meta-info:lang(tt-RU), .entry-meta:lang(tt-RU), .entry-footer:lang(tt-RU), .main-navigation:lang(tt-RU), .no-comments:lang(tt-RU), .not-found .page-title:lang(tt-RU), .error-404 .page-title:lang(tt-RU), .post-navigation .post-title:lang(tt-RU), .page-links:lang(tt-RU), .page-description:lang(tt-RU), .pagination .nav-links:lang(tt-RU), .sticky-post:lang(tt-RU), .site-title:lang(tt-RU), .site-info:lang(tt-RU), #cancel-comment-reply-link:lang(tt-RU), h1:lang(tt-RU), h2:lang(tt-RU), h3:lang(tt-RU), h4:lang(tt-RU), h5:lang(tt-RU), h6:lang(tt-RU), .page-title:lang(tt-RU), blockquote cite:lang(tt-RU), table:lang(tt-RU) {font-family: "Helvetica Neue",Helvetica,"Segoe UI",Arial,sans-serif;}
+body:lang(uk), button:lang(uk), input:lang(uk), select:lang(uk), optgroup:lang(uk), textarea:lang(uk), .author-description .author-link:lang(uk), .comment-metadata:lang(uk), .comment-reply-link:lang(uk), .comments-title:lang(uk), .comment-author .fn:lang(uk), .discussion-meta-info:lang(uk), .entry-meta:lang(uk), .entry-footer:lang(uk), .main-navigation:lang(uk), .no-comments:lang(uk), .not-found .page-title:lang(uk), .error-404 .page-title:lang(uk), .post-navigation .post-title:lang(uk), .page-links:lang(uk), .page-description:lang(uk), .pagination .nav-links:lang(uk), .sticky-post:lang(uk), .site-title:lang(uk), .site-info:lang(uk), #cancel-comment-reply-link:lang(uk), h1:lang(uk), h2:lang(uk), h3:lang(uk), h4:lang(uk), h5:lang(uk), h6:lang(uk), .page-title:lang(uk), blockquote cite:lang(uk), table:lang(uk) {font-family: "Helvetica Neue",Helvetica,"Segoe UI",Arial,sans-serif;}
+body:lang(zh-HK), button:lang(zh-HK), input:lang(zh-HK), select:lang(zh-HK), optgroup:lang(zh-HK), textarea:lang(zh-HK), .author-description .author-link:lang(zh-HK), .comment-metadata:lang(zh-HK), .comment-reply-link:lang(zh-HK), .comments-title:lang(zh-HK), .comment-author .fn:lang(zh-HK), .discussion-meta-info:lang(zh-HK), .entry-meta:lang(zh-HK), .entry-footer:lang(zh-HK), .main-navigation:lang(zh-HK), .no-comments:lang(zh-HK), .not-found .page-title:lang(zh-HK), .error-404 .page-title:lang(zh-HK), .post-navigation .post-title:lang(zh-HK), .page-links:lang(zh-HK), .page-description:lang(zh-HK), .pagination .nav-links:lang(zh-HK), .sticky-post:lang(zh-HK), .site-title:lang(zh-HK), .site-info:lang(zh-HK), #cancel-comment-reply-link:lang(zh-HK), h1:lang(zh-HK), h2:lang(zh-HK), h3:lang(zh-HK), h4:lang(zh-HK), h5:lang(zh-HK), h6:lang(zh-HK), .page-title:lang(zh-HK), blockquote cite:lang(zh-HK), table:lang(zh-HK) {font-family: -apple-system,BlinkMacSystemFont,"PingFang HK","Helvetica Neue","Microsoft YaHei New",STHeiti Light,sans-serif;}
+body:lang(zh-TW), button:lang(zh-TW), input:lang(zh-TW), select:lang(zh-TW), optgroup:lang(zh-TW), textarea:lang(zh-TW), .author-description .author-link:lang(zh-TW), .comment-metadata:lang(zh-TW), .comment-reply-link:lang(zh-TW), .comments-title:lang(zh-TW), .comment-author .fn:lang(zh-TW), .discussion-meta-info:lang(zh-TW), .entry-meta:lang(zh-TW), .entry-footer:lang(zh-TW), .main-navigation:lang(zh-TW), .no-comments:lang(zh-TW), .not-found .page-title:lang(zh-TW), .error-404 .page-title:lang(zh-TW), .post-navigation .post-title:lang(zh-TW), .page-links:lang(zh-TW), .page-description:lang(zh-TW), .pagination .nav-links:lang(zh-TW), .sticky-post:lang(zh-TW), .site-title:lang(zh-TW), .site-info:lang(zh-TW), #cancel-comment-reply-link:lang(zh-TW), h1:lang(zh-TW), h2:lang(zh-TW), h3:lang(zh-TW), h4:lang(zh-TW), h5:lang(zh-TW), h6:lang(zh-TW), .page-title:lang(zh-TW), blockquote cite:lang(zh-TW), table:lang(zh-TW) {font-family: -apple-system,BlinkMacSystemFont,"PingFang TC","Helvetica Neue","Microsoft YaHei New",STHeiti Light,sans-serif;}
+body:lang(zh-CN), button:lang(zh-CN), input:lang(zh-CN), select:lang(zh-CN), optgroup:lang(zh-CN), textarea:lang(zh-CN), .author-description .author-link:lang(zh-CN), .comment-metadata:lang(zh-CN), .comment-reply-link:lang(zh-CN), .comments-title:lang(zh-CN), .comment-author .fn:lang(zh-CN), .discussion-meta-info:lang(zh-CN), .entry-meta:lang(zh-CN), .entry-footer:lang(zh-CN), .main-navigation:lang(zh-CN), .no-comments:lang(zh-CN), .not-found .page-title:lang(zh-CN), .error-404 .page-title:lang(zh-CN), .post-navigation .post-title:lang(zh-CN), .page-links:lang(zh-CN), .page-description:lang(zh-CN), .pagination .nav-links:lang(zh-CN), .sticky-post:lang(zh-CN), .site-title:lang(zh-CN), .site-info:lang(zh-CN), #cancel-comment-reply-link:lang(zh-CN), h1:lang(zh-CN), h2:lang(zh-CN), h3:lang(zh-CN), h4:lang(zh-CN), h5:lang(zh-CN), h6:lang(zh-CN), .page-title:lang(zh-CN), blockquote cite:lang(zh-CN), table:lang(zh-CN) {font-family: -apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue","Microsoft YaHei New",STHeiti Light,sans-serif;}
+body:lang(bn-BD), button:lang(bn-BD), input:lang(bn-BD), select:lang(bn-BD), optgroup:lang(bn-BD), textarea:lang(bn-BD), .author-description .author-link:lang(bn-BD), .comment-metadata:lang(bn-BD), .comment-reply-link:lang(bn-BD), .comments-title:lang(bn-BD), .comment-author .fn:lang(bn-BD), .discussion-meta-info:lang(bn-BD), .entry-meta:lang(bn-BD), .entry-footer:lang(bn-BD), .main-navigation:lang(bn-BD), .no-comments:lang(bn-BD), .not-found .page-title:lang(bn-BD), .error-404 .page-title:lang(bn-BD), .post-navigation .post-title:lang(bn-BD), .page-links:lang(bn-BD), .page-description:lang(bn-BD), .pagination .nav-links:lang(bn-BD), .sticky-post:lang(bn-BD), .site-title:lang(bn-BD), .site-info:lang(bn-BD), #cancel-comment-reply-link:lang(bn-BD), h1:lang(bn-BD), h2:lang(bn-BD), h3:lang(bn-BD), h4:lang(bn-BD), h5:lang(bn-BD), h6:lang(bn-BD), .page-title:lang(bn-BD), blockquote cite:lang(bn-BD), table:lang(bn-BD) {font-family: Arial,sans-serif;}
+body:lang(hi-IN), button:lang(hi-IN), input:lang(hi-IN), select:lang(hi-IN), optgroup:lang(hi-IN), textarea:lang(hi-IN), .author-description .author-link:lang(hi-IN), .comment-metadata:lang(hi-IN), .comment-reply-link:lang(hi-IN), .comments-title:lang(hi-IN), .comment-author .fn:lang(hi-IN), .discussion-meta-info:lang(hi-IN), .entry-meta:lang(hi-IN), .entry-footer:lang(hi-IN), .main-navigation:lang(hi-IN), .no-comments:lang(hi-IN), .not-found .page-title:lang(hi-IN), .error-404 .page-title:lang(hi-IN), .post-navigation .post-title:lang(hi-IN), .page-links:lang(hi-IN), .page-description:lang(hi-IN), .pagination .nav-links:lang(hi-IN), .sticky-post:lang(hi-IN), .site-title:lang(hi-IN), .site-info:lang(hi-IN), #cancel-comment-reply-link:lang(hi-IN), h1:lang(hi-IN), h2:lang(hi-IN), h3:lang(hi-IN), h4:lang(hi-IN), h5:lang(hi-IN), h6:lang(hi-IN), .page-title:lang(hi-IN), blockquote cite:lang(hi-IN), table:lang(hi-IN) {font-family: Arial,sans-serif;}
+body:lang(mr), button:lang(mr), input:lang(mr), select:lang(mr), optgroup:lang(mr), textarea:lang(mr), .author-description .author-link:lang(mr), .comment-metadata:lang(mr), .comment-reply-link:lang(mr), .comments-title:lang(mr), .comment-author .fn:lang(mr), .discussion-meta-info:lang(mr), .entry-meta:lang(mr), .entry-footer:lang(mr), .main-navigation:lang(mr), .no-comments:lang(mr), .not-found .page-title:lang(mr), .error-404 .page-title:lang(mr), .post-navigation .post-title:lang(mr), .page-links:lang(mr), .page-description:lang(mr), .pagination .nav-links:lang(mr), .sticky-post:lang(mr), .site-title:lang(mr), .site-info:lang(mr), #cancel-comment-reply-link:lang(mr), h1:lang(mr), h2:lang(mr), h3:lang(mr), h4:lang(mr), h5:lang(mr), h6:lang(mr), .page-title:lang(mr), blockquote cite:lang(mr), table:lang(mr) {font-family: Arial,sans-serif;}
+body:lang(ne-NP), button:lang(ne-NP), input:lang(ne-NP), select:lang(ne-NP), optgroup:lang(ne-NP), textarea:lang(ne-NP), .author-description .author-link:lang(ne-NP), .comment-metadata:lang(ne-NP), .comment-reply-link:lang(ne-NP), .comments-title:lang(ne-NP), .comment-author .fn:lang(ne-NP), .discussion-meta-info:lang(ne-NP), .entry-meta:lang(ne-NP), .entry-footer:lang(ne-NP), .main-navigation:lang(ne-NP), .no-comments:lang(ne-NP), .not-found .page-title:lang(ne-NP), .error-404 .page-title:lang(ne-NP), .post-navigation .post-title:lang(ne-NP), .page-links:lang(ne-NP), .page-description:lang(ne-NP), .pagination .nav-links:lang(ne-NP), .sticky-post:lang(ne-NP), .site-title:lang(ne-NP), .site-info:lang(ne-NP), #cancel-comment-reply-link:lang(ne-NP), h1:lang(ne-NP), h2:lang(ne-NP), h3:lang(ne-NP), h4:lang(ne-NP), h5:lang(ne-NP), h6:lang(ne-NP), .page-title:lang(ne-NP), blockquote cite:lang(ne-NP), table:lang(ne-NP) {font-family: Arial,sans-serif;}
+body:lang(el), button:lang(el), input:lang(el), select:lang(el), optgroup:lang(el), textarea:lang(el), .author-description .author-link:lang(el), .comment-metadata:lang(el), .comment-reply-link:lang(el), .comments-title:lang(el), .comment-author .fn:lang(el), .discussion-meta-info:lang(el), .entry-meta:lang(el), .entry-footer:lang(el), .main-navigation:lang(el), .no-comments:lang(el), .not-found .page-title:lang(el), .error-404 .page-title:lang(el), .post-navigation .post-title:lang(el), .page-links:lang(el), .page-description:lang(el), .pagination .nav-links:lang(el), .sticky-post:lang(el), .site-title:lang(el), .site-info:lang(el), #cancel-comment-reply-link:lang(el), h1:lang(el), h2:lang(el), h3:lang(el), h4:lang(el), h5:lang(el), h6:lang(el), .page-title:lang(el), blockquote cite:lang(el), table:lang(el) {font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+body:lang(gu), button:lang(gu), input:lang(gu), select:lang(gu), optgroup:lang(gu), textarea:lang(gu), .author-description .author-link:lang(gu), .comment-metadata:lang(gu), .comment-reply-link:lang(gu), .comments-title:lang(gu), .comment-author .fn:lang(gu), .discussion-meta-info:lang(gu), .entry-meta:lang(gu), .entry-footer:lang(gu), .main-navigation:lang(gu), .no-comments:lang(gu), .not-found .page-title:lang(gu), .error-404 .page-title:lang(gu), .post-navigation .post-title:lang(gu), .page-links:lang(gu), .page-description:lang(gu), .pagination .nav-links:lang(gu), .sticky-post:lang(gu), .site-title:lang(gu), .site-info:lang(gu), #cancel-comment-reply-link:lang(gu), h1:lang(gu), h2:lang(gu), h3:lang(gu), h4:lang(gu), h5:lang(gu), h6:lang(gu), .page-title:lang(gu), blockquote cite:lang(gu), table:lang(gu) {font-family: Arial,sans-serif;}
+body:lang(he-IL), button:lang(he-IL), input:lang(he-IL), select:lang(he-IL), optgroup:lang(he-IL), textarea:lang(he-IL), .author-description .author-link:lang(he-IL), .comment-metadata:lang(he-IL), .comment-reply-link:lang(he-IL), .comments-title:lang(he-IL), .comment-author .fn:lang(he-IL), .discussion-meta-info:lang(he-IL), .entry-meta:lang(he-IL), .entry-footer:lang(he-IL), .main-navigation:lang(he-IL), .no-comments:lang(he-IL), .not-found .page-title:lang(he-IL), .error-404 .page-title:lang(he-IL), .post-navigation .post-title:lang(he-IL), .page-links:lang(he-IL), .page-description:lang(he-IL), .pagination .nav-links:lang(he-IL), .sticky-post:lang(he-IL), .site-title:lang(he-IL), .site-info:lang(he-IL), #cancel-comment-reply-link:lang(he-IL), h1:lang(he-IL), h2:lang(he-IL), h3:lang(he-IL), h4:lang(he-IL), h5:lang(he-IL), h6:lang(he-IL), .page-title:lang(he-IL), blockquote cite:lang(he-IL), table:lang(he-IL) {font-family: "Arial Hebrew",Arial,sans-serif;}
+body:lang(ja), button:lang(ja), input:lang(ja), select:lang(ja), optgroup:lang(ja), textarea:lang(ja), .author-description .author-link:lang(ja), .comment-metadata:lang(ja), .comment-reply-link:lang(ja), .comments-title:lang(ja), .comment-author .fn:lang(ja), .discussion-meta-info:lang(ja), .entry-meta:lang(ja), .entry-footer:lang(ja), .main-navigation:lang(ja), .no-comments:lang(ja), .not-found .page-title:lang(ja), .error-404 .page-title:lang(ja), .post-navigation .post-title:lang(ja), .page-links:lang(ja), .page-description:lang(ja), .pagination .nav-links:lang(ja), .sticky-post:lang(ja), .site-title:lang(ja), .site-info:lang(ja), #cancel-comment-reply-link:lang(ja), h1:lang(ja), h2:lang(ja), h3:lang(ja), h4:lang(ja), h5:lang(ja), h6:lang(ja), .page-title:lang(ja), blockquote cite:lang(ja), table:lang(ja) {font-family: -apple-system,BlinkMacSystemFont,"Hiragino Sans",Meiryo,"Helvetica Neue",sans-serif;}
+body:lang(ko-KR), button:lang(ko-KR), input:lang(ko-KR), select:lang(ko-KR), optgroup:lang(ko-KR), textarea:lang(ko-KR), .author-description .author-link:lang(ko-KR), .comment-metadata:lang(ko-KR), .comment-reply-link:lang(ko-KR), .comments-title:lang(ko-KR), .comment-author .fn:lang(ko-KR), .discussion-meta-info:lang(ko-KR), .entry-meta:lang(ko-KR), .entry-footer:lang(ko-KR), .main-navigation:lang(ko-KR), .no-comments:lang(ko-KR), .not-found .page-title:lang(ko-KR), .error-404 .page-title:lang(ko-KR), .post-navigation .post-title:lang(ko-KR), .page-links:lang(ko-KR), .page-description:lang(ko-KR), .pagination .nav-links:lang(ko-KR), .sticky-post:lang(ko-KR), .site-title:lang(ko-KR), .site-info:lang(ko-KR), #cancel-comment-reply-link:lang(ko-KR), h1:lang(ko-KR), h2:lang(ko-KR), h3:lang(ko-KR), h4:lang(ko-KR), h5:lang(ko-KR), h6:lang(ko-KR), .page-title:lang(ko-KR), blockquote cite:lang(ko-KR), table:lang(ko-KR) {font-family: "Apple SD Gothic Neo","Malgun Gothic","Nanum Gothic",Dotum,sans-serif;}
+body:lang(th), button:lang(th), input:lang(th), select:lang(th), optgroup:lang(th), textarea:lang(th), .author-description .author-link:lang(th), .comment-metadata:lang(th), .comment-reply-link:lang(th), .comments-title:lang(th), .comment-author .fn:lang(th), .discussion-meta-info:lang(th), .entry-meta:lang(th), .entry-footer:lang(th), .main-navigation:lang(th), .no-comments:lang(th), .not-found .page-title:lang(th), .error-404 .page-title:lang(th), .post-navigation .post-title:lang(th), .page-links:lang(th), .page-description:lang(th), .pagination .nav-links:lang(th), .sticky-post:lang(th), .site-title:lang(th), .site-info:lang(th), #cancel-comment-reply-link:lang(th), h1:lang(th), h2:lang(th), h3:lang(th), h4:lang(th), h5:lang(th), h6:lang(th), .page-title:lang(th), blockquote cite:lang(th), table:lang(th) {font-family: "Sukhumvit Set","Helvetica Neue",helvetica,arial,sans-serif;}
+body:lang(vi), button:lang(vi), input:lang(vi), select:lang(vi), optgroup:lang(vi), textarea:lang(vi), .author-description .author-link:lang(vi), .comment-metadata:lang(vi), .comment-reply-link:lang(vi), .comments-title:lang(vi), .comment-author .fn:lang(vi), .discussion-meta-info:lang(vi), .entry-meta:lang(vi), .entry-footer:lang(vi), .main-navigation:lang(vi), .no-comments:lang(vi), .not-found .page-title:lang(vi), .error-404 .page-title:lang(vi), .post-navigation .post-title:lang(vi), .page-links:lang(vi), .page-description:lang(vi), .pagination .nav-links:lang(vi), .sticky-post:lang(vi), .site-title:lang(vi), .site-info:lang(vi), #cancel-comment-reply-link:lang(vi), h1:lang(vi), h2:lang(vi), h3:lang(vi), h4:lang(vi), h5:lang(vi), h6:lang(vi), .page-title:lang(vi), blockquote cite:lang(vi), table:lang(vi) {font-family: "Libre Franklin",sans-serif;}
+html {line-height: 1.15;-webkit-text-size-adjust: 100%;}
+body {margin: 0;}
+h1 {font-size: 2em;margin: .67em 0;}
+hr {box-sizing: content-box;height: 0;overflow: visible;}
+pre {font-family: monospace,monospace;font-size: 1em;}
+a {background-color: transparent;}
+abbr[title] {border-bottom: none;text-decoration: underline;text-decoration: underline dotted;}
+b, strong {font-weight: bolder;}
+code, kbd, samp {font-family: monospace,monospace;font-size: 1em;}
+small {font-size: 80%;}
+sub, sup {font-size: 75%;line-height: 0;position: relative;vertical-align: baseline;}
+sub {bottom: -.25em;}
+sup {top: -.5em;}
+img {border-style: none;}
+button, input, optgroup, select, textarea {font-family: inherit;font-size: 100%;line-height: 1.15;margin: 0;}
+button, input {overflow: visible;}
+button, select {text-transform: none;}
+button, [type="button"], [type="reset"], [type="submit"] {-webkit-appearance: button;}
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {border-style: none;padding: 0;}
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {outline: 1px dotted ButtonText;}
+fieldset {padding: .35em .75em .625em;}
+legend {box-sizing: border-box;color: inherit;display: table;max-width: 100%;padding: 0;white-space: normal;}
+progress {vertical-align: baseline;}
+textarea {overflow: auto;}
+[type="checkbox"], [type="radio"] {box-sizing: border-box;padding: 0;}
+[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {height: auto;}
+[type="search"] {-webkit-appearance: textfield;outline-offset: -2px;}
+[type="search"]::-webkit-search-decoration {-webkit-appearance: none;}
+::-webkit-file-upload-button {-webkit-appearance: button;font: inherit;}
+details {display: block;}
+summary {display: list-item;}
+template {display: none;}
+[hidden] {display: none;}
+html {font-size: 22px;}
+body {-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;color: #383838;font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;font-weight: 400;font-size: 1em;line-height: 1.8;margin: 0;text-rendering: optimizeLegibility;}
+button, input, select, optgroup, textarea {color: #383838;font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;font-weight: 400;line-height: 1.8;text-rendering: optimizeLegibility;}
+.author-description .author-link, .comment-metadata, .comment-reply-link, .comments-title, .comment-author .fn, .discussion-meta-info, .entry-meta, .entry-footer, .main-navigation, .no-comments, .not-found .page-title, .error-404 .page-title, .post-navigation .post-title, .page-links, .page-description, .pagination .nav-links, .sticky-post, .site-title, .site-info, #cancel-comment-reply-link, h1, h2, h3, h4, h5, h6 {font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;}
+.main-navigation, .page-description, .author-description .author-link, .not-found .page-title, .error-404 .page-title, .post-navigation .post-title, .pagination .nav-links, .comments-title, .comment-author .fn, .no-comments, .site-title, h1, h2, h3, h4, h5, h6 {font-weight: 700;letter-spacing: -.02em;line-height: 1.2;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.page-title {font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;}
+.site-branding, .main-navigation ul.main-menu > li, .social-navigation, .author-description .author-bio, .nav-links {line-height: 1.25;}
+h1 {font-size: 2.25em;}
+@media only screen and (min-width: 768px) {h1 {font-size: 2.8125em;}}
+.entry-title, .not-found .page-title, .error-404 .page-title, .has-larger-font-size, h2 {font-size: 1.6875em;}
+@media only screen and (min-width: 768px) {.entry-title, .not-found .page-title, .error-404 .page-title, .has-larger-font-size, h2 {font-size: 2.25em;}}
+.has-regular-font-size, .has-large-font-size, .comments-title, h3 {font-size: 1.6875em;}
+.site-title, .site-description, .main-navigation, .nav-links, .page-title, .page-description, .comment-author .fn, .no-comments, h2.author-title, p.author-bio, h4 {font-size: 2.25em;}
+@media (min-width: 320px) and (max-width: 767px) {.site-title, .site-description, .main-navigation, .nav-links, .page-title, .page-description, .comment-author .fn, .no-comments, h2.author-title, p.author-bio, h4 {font-size: 1.6875em;}}
+.pagination .nav-links, .comment-content, h5 {font-size: .88889em;}
+.entry-meta, .entry-footer, .discussion-meta-info, .site-info, .has-small-font-size, .comment-reply-link, .comment-metadata, .comment-notes, .sticky-post, #cancel-comment-reply-link, img:after, h6 {font-size: .71111em;}
+.page-description, .page-links a {font-weight: bold;}
+.site-description {letter-spacing: -.01em;}
+.post-navigation .post-title, .entry-title, .not-found .page-title, .error-404 .page-title, .comments-title, blockquote {-webkit-hyphens: auto;-moz-hyphens: auto;-ms-hyphens: auto;hyphens: auto;word-break: break-word;word-wrap: break-word;}
+@media only screen and (min-width: 768px) {.entry-title {-webkit-hyphens: none;-moz-hyphens: none;-ms-hyphens: none;hyphens: none;}}
+p {-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+dfn, cite, em, i {font-style: italic;}
+blockquote cite {font-size: .71111em;font-style: normal;font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;}
+pre {font-size: .88889em;font-family: "Courier 10 Pitch",Courier,monospace;line-height: 1.8;overflow: auto;}
+code, kbd, tt, var {font-size: .88889em;font-family: Menlo,monaco,Consolas,Lucida Console,monospace;}
+abbr, acronym {border-bottom: 1px dotted #666;cursor: help;}
+mark, ins {background: #fff9c0;text-decoration: none;}
+big {font-size: 125%;}
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:focus {text-decoration: underline;}
+html {box-sizing: border-box;}
+::-moz-selection {background-color: #cbcbcb;}
+::selection {background-color: #cbcbcb;}
+*, *:before, *:after {box-sizing: inherit;}
+body {background-color: #fff;}
+a {transition: color 110ms ease-in-out;color: #383838;}
+a:hover, a:active {color: #1f1f1f;outline: 0;text-decoration: none;}
+a:focus {outline: thin;outline-style: dotted;text-decoration: underline;}
+h1, h2, h3, h4, h5, h6 {clear: both;margin: 1rem 0;}
+hr {background-color: #767676;border: 0;height: 2px;}
+ul, ol {padding-left: 1rem;}
+ul {list-style: disc;}
+ul ul {list-style-type: circle;}
+ol {list-style: decimal;}
+li {line-height: 1.8;}
+li > ul, li > ol {padding-left: 2rem;}
+dt {font-weight: bold;}
+dd {margin: 0 1rem 1rem;}
+img {height: auto;max-width: 100%;position: relative;}
+figure {margin: 0;}
+blockquote {border-left: 2px solid #383838;margin-left: 0;padding: 0 0 0 1rem;}
+blockquote > p {margin: 0 0 1rem;}
+blockquote cite {color: #767676;}
+table {margin: 0 0 1rem;border-collapse: collapse;width: 100%;font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;}
+table td, table th {padding: .5em;border: 1px solid #767676;word-break: break-all;}
+a {transition: color 110ms ease-in-out;color: #383838;}
+a:visited {color: #383838;}
+a:hover, a:active {color: #1f1f1f;outline: 0;text-decoration: none;}
+a:focus {outline: thin dotted;text-decoration: underline;}
+.main-navigation {display: block;margin-top: .25rem;}
+body.page .main-navigation {display: block;}
+.main-navigation > div {display: inline;}
+.main-navigation button {display: inline-block;border: none;padding: 0;margin: 0;font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;font-weight: 700;line-height: 1.2;text-decoration: none;background: transparent;color: inherit;cursor: pointer;transition: background 250ms ease-in-out,transform 150ms ease;-webkit-appearance: none;-moz-appearance: none;}
+.main-navigation button:hover, .main-navigation button:focus {background: transparent;}
+.main-navigation button:focus {outline: 1px solid transparent;outline-offset: -4px;}
+.main-navigation button:active {transform: scale(.99);}
+.main-navigation .main-menu {display: inline-block;margin: 0;padding: 0;}
+.main-navigation .main-menu > li {color: #383838;display: inline;position: relative;}
+.main-navigation .main-menu > li > a {font-weight: 700;color: #383838;margin-right: .5rem;}
+.main-navigation .main-menu > li > a + svg {margin-right: .5rem;}
+.main-navigation .main-menu > li > a:hover, .main-navigation .main-menu > li > a:hover + svg {color: #1f1f1f;}
+.main-navigation .main-menu > li.menu-item-has-children {display: inline-block;position: inherit;}
+@media only screen and (min-width: 768px) {.main-navigation .main-menu > li.menu-item-has-children {position: relative;}}
+.main-navigation .main-menu > li.menu-item-has-children > a {margin-right: .125rem;}
+.main-navigation .main-menu > li.menu-item-has-children > a:after, .main-navigation .main-menu > li.menu-item-has-children .menu-item-has-children > a:after {content: "";display: none;}
+.main-navigation .main-menu > li.menu-item-has-children .submenu-expand {display: inline-block;margin-right: .25rem;}
+.main-navigation .main-menu > li.menu-item-has-children .submenu-expand.main-menu-more-toggle {position: relative;height: 24px;line-height: 1.2;width: 24px;padding: 0;margin-left: .5rem;}
+.main-navigation .main-menu > li.menu-item-has-children .submenu-expand.main-menu-more-toggle svg {height: 24px;width: 24px;top: -.125rem;vertical-align: text-bottom;}
+.wp-customizer-unloading .main-navigation .main-menu > li.menu-item-has-children .submenu-expand, .main-navigation .main-menu > li.menu-item-has-children .submenu-expand.is-empty {display: none;}
+.main-navigation .main-menu > li.menu-item-has-children .submenu-expand svg {position: relative;top: .2rem;}
+.main-navigation .main-menu > li:last-child > a, .main-navigation .main-menu > li:last-child.menu-item-has-children .submenu-expand {margin-right: 0;}
+.main-navigation .sub-menu {background-color: #383838;color: #fff;list-style: none;padding-left: 0;position: absolute;opacity: 0;left: -9999px;z-index: 99999;}
+@media only screen and (min-width: 768px) {.main-navigation .sub-menu {width: auto;min-width: -moz-max-content;min-width: -webkit-max-content;min-width: max-content;}}
+.main-navigation .sub-menu > li {display: block;float: none;position: relative;}
+.main-navigation .sub-menu > li.menu-item-has-children .submenu-expand {display: inline-block;position: absolute;width: calc(24px + 1rem);right: 0;top: calc(.125 * 1rem);bottom: 0;color: white;line-height: 1;padding: calc(.5 * 1rem);}
+.main-navigation .sub-menu > li.menu-item-has-children .submenu-expand svg {top: 0;}
+.main-navigation .sub-menu > li.menu-item-has-children .submenu-expand {margin-right: 0;}
+@media only screen and (min-width: 768px) {.main-navigation .sub-menu > li.menu-item-has-children .menu-item-has-children > a:after {content: "›";}}
+.main-navigation .sub-menu > li > a, .main-navigation .sub-menu > li > .menu-item-link-return {color: #fff;display: block;line-height: 1.2;text-shadow: none;padding: calc(.5 * 1rem) calc(24px + 1rem) calc(.5 * 1rem) 1rem;white-space: nowrap;}
+.main-navigation .sub-menu > li > a:hover, .main-navigation .sub-menu > li > a:focus, .main-navigation .sub-menu > li > .menu-item-link-return:hover, .main-navigation .sub-menu > li > .menu-item-link-return:focus {background: #1f1f1f;}
+.main-navigation .sub-menu > li > a:hover:after, .main-navigation .sub-menu > li > a:focus:after, .main-navigation .sub-menu > li > .menu-item-link-return:hover:after, .main-navigation .sub-menu > li > .menu-item-link-return:focus:after {background: #1f1f1f;}
+.main-navigation .sub-menu > li > .menu-item-link-return {width: 100%;font-size: 22px;font-weight: normal;text-align: left;}
+.main-navigation .sub-menu > li > a:empty {display: none;}
+.main-navigation .sub-menu > li.mobile-parent-nav-menu-item {display: none;font-size: .88889em;font-weight: normal;}
+.main-navigation .sub-menu > li.mobile-parent-nav-menu-item svg {position: relative;top: .2rem;margin-right: calc(.25 * 1rem);}
+.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus-within > .sub-menu {display: block;left: 0;margin-top: 0;opacity: 1;width: auto;min-width: 100%;}
+@media only screen and (min-width: 768px) {.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus-within > .sub-menu {display: block;margin-top: 0;opacity: 1;position: absolute;left: 0;right: auto;top: auto;bottom: auto;height: auto;min-width: -moz-max-content;min-width: -webkit-max-content;min-width: max-content;transform: none;}}
+.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus-within > .sub-menu.hidden-links {left: 0;width: 100%;display: table;position: absolute;}
+@media only screen and (min-width: 768px) {.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus-within > .sub-menu.hidden-links {right: 0;left: auto;display: block;width: max-content;}}
+.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus-within > .sub-menu .submenu-expand {display: none;}
+.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus-within > .sub-menu .sub-menu {display: block;margin-top: inherit;position: relative;width: 100%;left: 0;opacity: 1;}
+@media only screen and (min-width: 768px) {.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus-within > .sub-menu .sub-menu {float: none;max-width: 100%;}}
+.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus-within > .sub-menu .sub-menu {counter-reset: submenu;}
+.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus-within > .sub-menu .sub-menu > li > a::before {font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;font-weight: normal;content: "– " counters(submenu,"– ",none);counter-increment: submenu;}
+.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):hover > .sub-menu, .main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus > .sub-menu, .main-navigation .main-menu .menu-item-has-children.is-focused:not(.off-canvas) > .sub-menu {display: block;left: 0;margin-top: 0;opacity: 1;width: auto;min-width: 100%;}
+@media only screen and (min-width: 768px) {.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):hover > .sub-menu, .main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus > .sub-menu, .main-navigation .main-menu .menu-item-has-children.is-focused:not(.off-canvas) > .sub-menu {display: block;float: none;margin-top: 0;opacity: 1;position: absolute;left: 0;right: auto;top: auto;bottom: auto;height: auto;min-width: -moz-max-content;min-width: -webkit-max-content;min-width: max-content;transform: none;}}
+.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):hover > .sub-menu.hidden-links, .main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus > .sub-menu.hidden-links, .main-navigation .main-menu .menu-item-has-children.is-focused:not(.off-canvas) > .sub-menu.hidden-links {left: 0;width: 100%;display: table;position: absolute;}
+@media only screen and (min-width: 768px) {.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):hover > .sub-menu.hidden-links, .main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus > .sub-menu.hidden-links, .main-navigation .main-menu .menu-item-has-children.is-focused:not(.off-canvas) > .sub-menu.hidden-links {right: 0;left: auto;display: table;width: max-content;}}
+.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):hover > .sub-menu .submenu-expand, .main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus > .sub-menu .submenu-expand, .main-navigation .main-menu .menu-item-has-children.is-focused:not(.off-canvas) > .sub-menu .submenu-expand {display: none;}
+.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):hover > .sub-menu .sub-menu, .main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus > .sub-menu .sub-menu, .main-navigation .main-menu .menu-item-has-children.is-focused:not(.off-canvas) > .sub-menu .sub-menu {display: block;margin-top: inherit;position: relative;width: 100%;left: 0;opacity: 1;}
+@media only screen and (min-width: 768px) {.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):hover > .sub-menu .sub-menu, .main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus > .sub-menu .sub-menu, .main-navigation .main-menu .menu-item-has-children.is-focused:not(.off-canvas) > .sub-menu .sub-menu {float: none;max-width: 100%;}}
+.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):hover > .sub-menu .sub-menu, .main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus > .sub-menu .sub-menu, .main-navigation .main-menu .menu-item-has-children.is-focused:not(.off-canvas) > .sub-menu .sub-menu {counter-reset: submenu;}
+.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):hover > .sub-menu .sub-menu > li > a::before, .main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus > .sub-menu .sub-menu > li > a::before, .main-navigation .main-menu .menu-item-has-children.is-focused:not(.off-canvas) > .sub-menu .sub-menu > li > a::before {font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;font-weight: normal;content: "– " counters(submenu,"– ",none);counter-increment: submenu;}
+.main-navigation .main-menu > .menu-item-has-children:not(.off-canvas):hover > .sub-menu {animation: fade_in .1s forwards;}
+.main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu .submenu-expand .svg-icon {transform: rotate(270deg);}
+.main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu .sub-menu {opacity: 0;position: absolute;z-index: 0;transform: translateX(-100%);}
+.main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu li:hover, .main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu li:focus, .main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu li > a:hover, .main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu li > a:focus {background-color: transparent;}
+.main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu > li > a, .main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu > li > .menu-item-link-return {white-space: inherit;}
+.main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu.expanded-true {display: table;margin-top: 0;opacity: 1;padding-left: 0;left: 0;top: 0;right: 0;bottom: 0;position: fixed;z-index: 100000;width: 100vw;height: 100vh;max-width: 100vw;transform: translateX(100%);animation: slide_in_right .3s forwards;}
+.main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu.expanded-true > .mobile-parent-nav-menu-item {display: block;}
+.admin-bar .main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu.expanded-true {top: 46px;height: calc(100vh - 46px);}
+.admin-bar .main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu.expanded-true .sub-menu.expanded-true {top: 0;}
+@media only screen and (min-width: 782px) {.admin-bar .main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu.expanded-true {top: 32px;height: calc(100vh - 32px);}
+	.admin-bar .main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu.expanded-true .sub-menu.expanded-true {top: 0;}}
+.main-navigation .main-menu-more:nth-child(n+3) {display: none;}
+@keyframes slide_in_right {100% {transform: translateX(0%);}}
+@keyframes fade_in {from {opacity: 0;}
+	to {opacity: 1;}}
+#page {width: 100%;}
+.site-content {overflow: hidden;}
+.container {width: 90%;padding: 0 5%;margin: 0 auto;}
+.grid {display: flex;}
+.grid .row-1 {flex: 2;}
+@media screen and (max-width: 1200px) {.container {width: 100%;padding: 0 3%;margin: 0 auto;}}
+.toggle-nav {display: none;}
+.menu ul {display: flex;justify-content: flex-end;}
+.menu li {margin: 0px 50px 0px 0px;text-align: center;list-style: none;font-size: 17px;}
+.menu li:last-child {margin-right: 0px;}
+#navbar-item li a {color: #383838;transition: color linear .15s;font-size: 15px;font-weight: bold;padding: 5px 5px;border-right: 1px solid #f4f4f4;}
+#navbar-item li a:hover {text-decoration: underline;color: #4a4a4a;}
+.menu .current-item a {text-decoration: none;}
+.menu ul .current-menu-item {text-decoration: underline;}
+@media screen and (max-width: 2045px) {.menu ul.active {display: none;}
+	.menu li {margin: 5px 0px 5px 0px;float: none;display: block;}
+	.menu a {display: block;}
+	.toggle-nav {padding: 8px 14px;float: right;width: 50px;color: #777;font-size: 25px;transition: color linear .15s;}
+	.toggle-nav:hover, .toggle-nav.active {text-decoration: none;color: #66a992;}
+	.menu ul {position: fixed;left: 0px;padding: 10px 18px;box-shadow: 0px 1px 1px rgba(0,0,0,.15);border-radius: 3px;background: #fff;z-index: 99;min-height: 84vh;width: 100%;margin-top: 64px;flex-direction: column;justify-content: flex-start;}
+	#navbar-item li a {border-right: none;font-size: 25px;}}
+.header {position: fixed;z-index: 9999;width: 100%;padding: 0 10% 15px;background-color: #fff;top: 0;}
+.header .site-title {margin: 1rem 0 0 0;padding: 0;line-height: .5rem;font-weight: bolder;letter-spacing: -.04em;}
+@media only screen and (min-width: 768px) {.header .site-title {font-size: 1.125em;}}
+@media (max-width: 414px) {.header .site-title {font-size: 1rem;line-height: .03rem;}}
+.header .site-title h1:not(.site-title):before, .header .site-title h2:before {background: none;}
+.header .site-description {display: inline;color: #767676;font-weight: normal;margin: 0;}
+@media only screen and (min-width: 768px) {.header .site-description {font-size: .88889em;}}
+@media (max-width: 414px) {.header .site-description {font-size: .8rem;}}
+#main {padding-top: 38px;}
+@media screen and (max-width: 1200px) {.header {padding: 0 3% 15px;background-color: #fff;}
+	#main {padding-top: 32px;}}
+@media (max-width: 800px) {.header .site-title {font-size: 23px;line-height: .02;}
+	.header .site-description {font-size: 18px;}}
+@media (max-width: 375px) {.header .site-title {font-size: 19px;line-height: .02;}
+	.header .site-description {font-size: 15px;}}
+.home-hero .homer-hero-image-wrapper {margin-top: -5px;margin-left: -65px;}
+.home-hero .homer-hero-image-wrapper .home-hero-image {width: 600px;margin-left: 0;}
+.home-hero .home-hero-content {padding: 160px 110px 0 0;}
+.home-hero .home-hero-content .hero-heading {font-size: 50px;}
+.home-hero .home-hero-content .hero-subheading {font-size: 30px;font-weight: normal;}
+@media (min-width: 1028px) and (max-width: 1350px) {.home-hero .home-hero-content {padding: 175px 90px 0 0;}
+	.home-hero .home-hero-content .hero-heading {font-size: 35px;}
+	.home-hero .home-hero-content .hero-subheading {font-size: 24px;font-weight: normal;}}
+@media (max-width: 1024px) {.home-hero .home-hero-content {padding: 119px 0 0 0;}
+	.home-hero .homer-hero-image-wrapper {margin-top: -31px;margin-left: -25px;}
+	.home-hero .home-hero-content .hero-heading {font-size: 40px;}
+	.home-hero .home-hero-content .hero-subheading {font-size: 24px;font-weight: normal;}}
+@media (max-width: 768px) {.home-hero .home-hero-content {padding: 75px 0 0 0;}
+	.home-hero .home-hero-content .hero-heading {font-size: 31px;}
+	.home-hero .home-hero-content .hero-subheading {font-size: 20px;font-weight: normal;}}
+@media (min-width: 320px) and (max-width: 767px) {.home-hero .grid {display: flex;flex-direction: column;}
+	.home-hero .home-hero-content {padding: 0 0 0 0;}
+	.home-hero .homer-hero-image-wrapper {margin-top: -12px;padding: 0 0;text-align: center;}
+	.home-hero .home-hero-content .hero-heading {font-size: 28px;text-align: center;}
+	.home-hero .home-hero-content .hero-subheading {font-size: 19px;font-weight: normal;text-align: center;}}
+.category-servicos #main {display: flex;justify-content: space-between;flex-wrap: wrap;}
+.category-servicos #main .page-header {flex-direction: column;width: 100%;}
+.category-servicos #main article.category-servicos {flex-direction: column;flex: 1 0 44%;min-height: 100px;margin: 25px;justify-content: flex-start;padding: 10px 18px;}
+.category-servicos #main article.category-servicos:hover {background-color: #f8f8f8;}
+.category-servicos #main .attachment-post-thumbnail {width: 35px;}
+.category-servicos #main .entry-header h2 {padding: 0;margin: 0 0 17px 0;line-height: 0;}
+.category-servicos #main .entry-content {font-size: 19px;line-height: 28px;text-align: justify;}
+.category-servicos #main .entry-content a {font-weight: bold;}
+.category-servicos #main .entry-header h2 a {font-size: 25px;}
+@media (min-width: 320px) and (max-width: 767px) {.category-servicos #main {display: block;}
+	.category-servicos #main article.category-servicos {margin: 11px 0 24px 0;padding: 10px 1px;}
+	.category-servicos #main .entry-header h2 a {font-size: 23px;line-height: 27px;}}
+.category-projetos #main {flex-direction: column;}
+.category-projetos #main article {display: flex;flex-direction: row-reverse;clear: both;margin-bottom: 33px;background-color: #f8f8f8;}
+.category-projetos #main article .post_thumbnail {width: 80%;position: relative;height: 270px;overflow: hidden;margin: 5%;}
+.category-projetos #main article .entry-header {width: 85%;margin: 0 5%;position: relative;min-height: 200px;}
+.category-projetos #main article header {margin-bottom: 27px;}
+.category-projetos #main .entry-header h2 a {font-size: 37px;}
+.category-projetos #main .entry-content {font-size: 20px;line-height: 28px;}
+.category-projetos #main .entry-content a {font-size: 19px;letter-spacing: -.04em;font-weight: bold;}
+.category-projetos #main .get_excerpt_project {position: absolute;bottom: 20px;}
+.category-projetos #main .get_excerpt_project .link-arrow {height: 12px;margin-left: 10px;}
+@media screen and (max-width: 1024px) {.category-projetos #main .get_excerpt_project {margin-top: 35px;}
+	.category-projetos #main .get_excerpt_project .link-arrow {height: 13px;}
+	.category-projetos #main .entry-content {font-size: 16px;line-height: 21px;}}
+@media (min-width: 320px) and (max-width: 768px) {.category-projetos #main article {flex-direction: column;padding: 0 0 5px 0px;min-width: 100px;text-align: center;}
+	.category-projetos #main article .post_thumbnail {width: 90%;height: 179px;}
+	.category-projetos #main article .entry-header {width: 90%;margin: 0 5%;}
+	.category-projetos #main .get_excerpt_project {margin-top: 20px;position: initial;}
+	.category-projetos #main .entry-header h2 a {font-size: 30px;}}
+.category-blog #main article {margin-bottom: 30px;padding: 20px;}
+.category-blog #main article:hover {background-color: #f8f8f8;}
+.single-post div#main, .page div#main {margin-bottom: 100px;}
+.single-post div#main .entry-header h2, .page div#main .entry-header h2 {margin: 0 0 50px 0;}
+.single-post .content-area #main {margin-top: 38px;}
+.wp-block-image figcaption {font-size: 15px;color: #767676;}
+@media (min-width: 320px) and (max-width: 767px) {.single-post div#main .entry-header h2, .page div#main .entry-header h2 {font-size: 25px;}}
+.home .service {background-image: linear-gradient(180deg,#e0f3fa,rgba(224,238,250,.63));margin: 15px 0;padding: 50px;}
+.home .service .list_ {display: flex;justify-content: space-between;flex-wrap: wrap;}
+.home .service .list_ .row {flex: 1 0 48%;padding: 15px;margin-bottom: 15px;}
+.home .service .list_ .row div.post_thumbnail img {height: 40px;width: 40px;}
+.home .service .list_ .row .entry-title {font-size: 23px;line-height: 1;margin: 7px 0;}
+.home .service .list_ .row .entry-content {font-size: 16px;line-height: 22px;text-align: justify;}
+.home .project {background-image: linear-gradient(180deg,#f8f8f8,rgba(240,240,240,.63));margin: 65px 0;padding: 50px;}
+.home .project .list_ {flex-direction: column;}
+.home .project .list_ .row {padding: 15px;margin-bottom: 15px;}
+.home .project .list_ .row div.post_thumbnail {height: 300px;overflow: hidden;}
+.home .project .list_ .row div.post_thumbnail img {width: 100%;}
+.home .workflow {background-image: linear-gradient(180deg,#fff2d7,rgba(255,238,230,.63));margin: 65px 0;padding: 50px;}
+.home .workflow .list_ .item {display: flex;padding: 15px;padding: 20px;width: 100%;margin-left: 0;margin-bottom: 15px;-webkit-box-pack: start;-webkit-justify-content: flex-start;-ms-flex-pack: start;justify-content: flex-start;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;background-color: rgba(255,255,255,.38);-webkit-transform-origin: 50% 50%;-ms-transform-origin: 50% 50%;transform-origin: 50% 50%;}
+.home .workflow .list_ .item .number {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;width: 45px;height: 45px;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;border: 2px solid #000;border-radius: 100%;margin-right: 15px;}
+.home-section {display: flex;}
+.home-section .row {flex: 1 0 40%;justify-content: space-between;}
+.home-section .s_ {padding-right: 5%;position: relative;min-height: 400px;}
+.home-section .s_ .subheading {font-size: 30px;}
+.home-section .s_ .behance {font-size: 14px;line-height: 20px;color: royalblue;}
+.home-section .s_ .get_excerpt_project {position: absolute;bottom: 0;}
+.home-section .s_ .get_excerpt_project a {font-size: 18px;font-weight: bold;}
+.home-section .s_ .get_excerpt_project a img {width: 13px;}
+.home-section .list_ .get_excerpt_project, .home-section .list_ .behance {display: none;}
+@media screen and (max-width: 1024px) {.home .service {margin: 0;}
+	.home .service .list_ .row {flex-direction: column;flex: auto;}}
+@media screen and (max-width: 768px) {.home .service .s_, .home .project .s_, .home .workflow .s_ {line-height: 20px;}
+	.home .service .s_ .heading, .home .project .s_ .heading, .home .workflow .s_ .heading {font-size: 35px;}
+	.home .service .s_ .subheading, .home .project .s_ .subheading, .home .workflow .s_ .subheading {font-size: 19px;}
+	.home .project .list_ .row {margin-bottom: 0;}
+	.home .project .list_ .row div.post_thumbnail {height: 198px;overflow: hidden;}}
+@media (min-width: 320px) and (max-width: 767px) {.home .service, .home .project, .home .workflow {margin: 0 0 20px 0;padding: 23px;flex-direction: column;flex: auto;}
+	.home .service .s_, .home .project .s_, .home .workflow .s_ {padding-right: 0;position: initial;min-height: 10px;}
+	.home .service .s_ .heading, .home .project .s_ .heading, .home .workflow .s_ .heading {font-size: 33px;text-align: center;}
+	.home .service .s_ .subheading, .home .project .s_ .subheading, .home .workflow .s_ .subheading {font-size: 20px;text-align: center;}
+	.home .service .s_ .get_excerpt_project, .home .service .s_ .behance, .home .project .s_ .get_excerpt_project, .home .project .s_ .behance, .home .workflow .s_ .get_excerpt_project, .home .workflow .s_ .behance {display: none;}
+	.home .service .list_, .home .project .list_, .home .workflow .list_ {text-align: center;}
+	.home .service .list_ .get_excerpt_project, .home .project .list_ .get_excerpt_project, .home .workflow .list_ .get_excerpt_project {display: block;}
+	.home .service .list_ .get_excerpt_project a, .home .project .list_ .get_excerpt_project a, .home .workflow .list_ .get_excerpt_project a {font-size: 18px;font-weight: bold;}
+	.home .service .list_ .get_excerpt_project a img, .home .project .list_ .get_excerpt_project a img, .home .workflow .list_ .get_excerpt_project a img {width: 13px;}
+	.home .service .list_ .behance, .home .project .list_ .behance, .home .workflow .list_ .behance {font-size: 14px;color: royalblue;display: block;line-height: 20px;margin-top: 15px;}
+	.home .project .list_ .row div.post_thumbnail {height: 150px;overflow: hidden;}
+	.home .workflow .list_ .item .number {width: 32px;height: 32px;}
+	.home .workflow .list_ .item .number .nfont {font-size: 13px;}
+	.home .workflow .list_ .item .ntext {font-size: 14px;font-weight: bold;}}
+article .entry-content .navigation {position: sticky;z-index: 44;top: 88px;background-color: #fff;}
+article .entry-content .navigation a:hover {color: yellow;}
+article .entry-content .navigation a:active {color: red;}
+footer {background-color: #000;padding: 114px 0 0;}
+footer .site-title {margin: 1rem 0 0 0;padding: 0;line-height: .5rem;font-weight: bolder;letter-spacing: -.04em;color: #767676;font-size: 30px;}
+footer .site-description {display: inline;color: #767676;font-weight: normal;margin: 0;font-size: 24px;}
+footer .container {display: flex;}
+footer .container .row {flex: 1 0 33%;}
+footer .container .new_project {margin-bottom: 125px;}
+footer .container .new_project p {color: #fdfdfd;font-size: 16px;font-weight: 600;}
+footer .container .new_project ul {display: flex;justify-content: center;}
+footer .container .new_project ul li {margin-right: 5px;margin-left: 5px;padding: 5px 15px;border-radius: 6px;background-color: #ececec;font-size: 12px;font-weight: 500;list-style: none;}
+footer .container .new_project ul li:hover {background-color: #fff;}
+footer .container .new_project ul li a {color: #3f3f3f;}
+footer .container .new_project ul .link-whats {background-color: #20b038;}
+footer .container .new_project ul .link-whats a {color: #fff;}
+footer .container .new_project ul .link-telegram {background-color: #00bfff;}
+footer .container .new_project ul .link-telegram a {color: #fff;}
+footer .container .new_project ul .link-skype {background-color: #09c;}
+footer .container .new_project ul .link-skype a {color: #fff;}
+footer .container .new_project, footer .container .site-info {flex-direction: column;text-align: center;justify-content: center;width: 100%;}
+footer .container .logo-footer {align-self: center;}
+footer .container .social {text-align: right;}
+footer h2 {color: #fff;}
+footer h4 {font-size: 16px;color: #fff;}
+footer .menu-footer {text-align: center;}
+footer .menu-footer #navbar-item li a {color: #767676;font-size: 16px;border-right: none;}
+footer .menu-footer li {list-style: none;}
+footer .social {display: flex;flex-direction: column;align-items: flex-end;}
+footer .social img {background-color: #fff;border-radius: 18px;margin-bottom: 10px;}
+@media (min-width: 768px) and (max-width: 1400px) {footer {padding-top: 80px;}
+	footer .site-title {font-size: 21px;}
+	footer .site-description {font-size: 17px;}
+	footer h2 {font-size: 34px;}
+	footer .container .new_project {margin-bottom: 90px;}
+	footer .container .new_project .button-footer {font-size: 19px;}}
+@media (min-width: 320px) and (max-width: 767px) {footer {padding-top: 45px;}
+	footer .no-mobile {display: none;}
+	footer .container .new_project {margin-bottom: 60px;}
+	footer .container .new_project ul {flex-direction: column;}
+	footer .container .new_project ul li {margin: 0 0 17px -10px;padding: 10px 15px;}
+	footer .container .site-info {font-size: 12px;}
+	footer h2 {font-size: 26px;margin-bottom: 38px;}}
+html.w-mod-touch * {background-attachment: scroll !important;}
+.mehr-erfahren-link-text {display: inline-block;color: #000;text-decoration: none;}
+.backarrow {position: static;left: 0;top: 0;right: auto;bottom: auto;display: -ms-flexbox;display: flex;width: 100px;height: 20px;padding: 0 0 0 25px;-webkit-box-pack: start;-webkit-justify-content: flex-start;-ms-flex-pack: start;justify-content: flex-start;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;background-color: transparent;background-image: url("../../../wp-content/themes/fabius/images/back_arrow.svg");background-position: 0 50%;background-size: 20px;background-repeat: no-repeat;color: #000;font-size: 16px;cursor: pointer;}
+.referenz-image-wrapper {position: relative;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;overflow: visible;width: 100%;margin-top: 25px;margin-bottom: 25px;-webkit-flex-direction: column;-ms-flex-direction: column;flex-direction: column;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
+.referenz-image-wrapper ::-webkit-scrollbar {width: 0px;}
+.referenz-image-wrapper ::-webkit-scrollbar-track {background: #fff;}
+.referenz-image-wrapper ::-webkit-scrollbar-thumb {background: #fff;}
+.referenz-image-wrapper ::-webkit-scrollbar-thumb:hover {background: #fff;}
+.full-website-image-container {position: absolute;left: 0;top: 6%;right: 0;bottom: 0;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: start;-webkit-align-items: flex-start;-ms-flex-align: start;align-items: flex-start;}
+.tablet-website-image-wrapper, .mobile-website-image-wrapper {display: none;position: static;left: auto;top: 6%;right: auto;bottom: auto;z-index: 10;overflow: scroll;width: 53%;margin-left: 0;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: start;-webkit-align-items: flex-start;-ms-flex-align: start;align-items: flex-start;}
+.tablet-website-image-wrapper img, .mobile-website-image-wrapper img {position: relative;left: auto;top: 0;right: auto;bottom: auto;z-index: 0;width: 100%;max-width: none;margin-right: 0;margin-left: 0;}
+@media (min-width: 768px) {.tablet-website-image-wrapper {margin-top: 29px;height: 76%;}
+	.tablet-website-image-wrapper img {margin-top: 6px;}}
+@media (min-width: 1024px) {.tablet-website-image-wrapper {margin-top: 41px;}
+	.tablet-website-image-wrapper img {margin-top: 12px;}}
+.full-website-image-wrapper {position: static;left: auto;top: 6%;right: auto;bottom: auto;z-index: 10;display: block;overflow: scroll;width: 53%;height: 81%;margin-left: 0;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: start;-webkit-align-items: flex-start;-ms-flex-align: start;align-items: flex-start;}
+.full-website-image-wrapper .wp-post-image {position: relative;left: auto;top: 0;right: auto;bottom: auto;z-index: 0;width: 100%;max-width: none;margin-right: 0;margin-left: 0;}
+.macbook {position: relative;z-index: 5;width: 70%;max-width: none;}
+.tablet, .mobile {display: none;position: relative;z-index: 5;width: 70%;max-width: none;}
+.referenzen-page-content-wrapper {width: 90%;margin-top: 40px;padding-top: 0;padding-bottom: 0;}
+.referenzen-page-content-wrapper {margin-right: auto;margin-left: auto;}
+.flex-column-wrapper {display: flex;width: 100%;}
+.flex-col {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;width: 100%;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;-ms-flex-direction: row;flex-direction: row;-webkit-box-pack: start;-webkit-justify-content: flex-start;-ms-flex-pack: start;justify-content: flex-start;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;-webkit-box-flex: 0;-webkit-flex: 0 auto;-ms-flex: 0 auto;flex: 0 auto;}
+.project-details {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;width: 100%;-webkit-flex-direction: column;-ms-flex-direction: column;flex-direction: column;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
+.project-details .mehr-efahren-link {position: static;left: 0;top: auto;right: auto;bottom: 0;display: inline-block;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;color: #000;font-size: 18px;font-weight: 500;text-decoration: none;}
+.project-details .link-arrow {width: 20px;margin-top: 0;margin-left: 10px;}
+.project-detail-overheading {color: #929292;font-size: 16px;font-weight: 500;}
+.project-details-heading {margin-top: 5px;margin-bottom: 5px;font-size: 20px;font-weight: 600;}
+.mehr-efahren-link {position: static;left: 0;top: auto;right: auto;bottom: 0;display: inline-block;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;color: #000;font-size: 18px;font-weight: 500;text-decoration: none;}
+.tags-wrapper {display: flex;margin-top: 15px;padding-top: 30px;padding-bottom: 0;-webkit-box-orient: vertical;-webkit-flex-direction: column;-ms-flex-direction: column;flex-direction: column;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;border-top: 2px solid #ececec;}
+.tags-wrapper .referenzen-beschreibung p {max-width: 650px;margin-top: 20px;margin-bottom: 40px;font-size: 15px;font-weight: 400;text-align: center;}
+.tags-wrapper .tags-container {display: flex;-webkit-box-orient: vertical;-webkit-flex-direction: column;-ms-flex-direction: column;flex-direction: column;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
+.tags-wrapper .tags-container .tags-heading {display: inline-block;margin-top: 0;margin-right: 0;margin-bottom: 0;font-size: 18px;line-height: 1.4;font-weight: 500;}
+.tags-wrapper .tags-container .collection-list-wrapper-2 {display: block;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;-ms-flex-direction: row;flex-direction: row;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
+.tags-wrapper .tags-container .collection-list-wrapper-2 .collection-list {display: flex;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;-webkit-align-content: stretch;-ms-flex-line-pack: stretch;align-content: stretch;}
+.tags-wrapper .tags-container .collection-list-wrapper-2 .collection-list ul {display: inline-block;margin-bottom: 10px;}
+.tags-wrapper .tags-container .collection-list-wrapper-2 .collection-list ul li {margin-right: 5px;margin-left: 5px;padding: 5px 15px;border-radius: 6px;background-color: #ececec;color: #3f3f3f;font-size: 12px;font-weight: 500;list-style: none;float: left;}
+@media (min-width: 768px) and (max-width: 1024px) {.full-website-image-wrapper, .macbook, .mobile-website-image-wrapper, .mobile {display: none;}
+	.tablet-website-image-wrapper, .tablet {display: block;}}
+@media (min-width: 320px) and (max-width: 767px) {.full-website-image-wrapper, .macbook, .tablet-website-image-wrapper, .tablet {display: none;}
+	.mobile-website-image-wrapper {display: block;width: 71%;height: 85%;margin-top: 25px;}
+	.mobile {width: 80%;display: block;}}
+@media (max-width: 479px) {.flex-col {-ms-flex-direction: column;flex-direction: column;}
+	.project-details-heading {margin-top: 10px;margin-bottom: 46px;}
+	.tags-wrapper .tags-container .collection-list-wrapper-2 .collection-list ul li {margin-bottom: 10px;}
+	.project-details .mehr-efahren-link {font-size: 16px;}}
+.icons-device {justify-content: space-evenly;display: flex;}
+.icons-device a {cursor: pointer;}
+.icons-device .icon-desktop {display: none;}
+.mobile {width: 25%;}
+.mobile-website-image-wrapper img {width: 100%;}
+@media (min-width: 1025px) {.tablet-website-image-wrapper {width: 44%;}
+	.tablet {width: 55%;}
+	.tablet-website-image-wrapper img {width: 100%;}
+	.mobile {width: 25%;}
+	.mobile-website-image-wrapper {height: 83%;width: 23%;margin-top: 27px;}
+	.mobile-website-image-wrapper img {width: 100%;}}
+@media (max-width: 1024px) {.icons-device .icon-desktop {display: block;}
+	.icons-device .icon-tablet {display: none;}
+	.mobile-website-image-wrapper {height: 84%;width: 23%;margin-top: 20px;}}
+@media (max-width: 768px) {.mobile-website-image-wrapper {height: 84%;width: 23%;margin-top: 16px;}}
+@media (min-width: 320px) and (max-width: 767px) {.icons-device .icon-desktop {display: block;}
+	.icons-device .icon-tablet {display: block;}
+	.icons-device .icon-mobile {display: none;}
+	.tablet-website-image-wrapper {height: 75%;margin-top: 17px;}
+	.mobile {width: 75%;}
+	.mobile-website-image-wrapper {width: 69%;height: 84%;margin-top: 25px;}}
+.page article h2 {font-size: 1.6875em;}
+.page article h4 {font-size: 1.125em;color: #767676;border-top: 1px #ccc solid;padding-top: 33px;font-family: "BlenderW00";}
+.page article p {text-align: justify;font-family: "BlenderW00";font-size: 16px;line-height: 24px;}
+.page article p a {font-weight: bold;text-decoration: underline;}
